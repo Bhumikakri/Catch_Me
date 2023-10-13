@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://th.bing.com/th/id/R.d87e1f35890074e8b3e51c6a1b52e918?rik=drmPsPqfNwAs4A&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fgOveoIZ.jpg&ehk=iyth1yURxzHiXl7FD5nSXrQqveiK8PBy6n9aNYtRCFI%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.drop{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.drop{
+  background-image: url("https://th.bing.com/th/id/OIP.VMHwAa2ZL-sbfYhBuB25RgHaFL?pid=ImgDet&rs=1");
+  background-size: cover;
+  box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.678);
+  border-radius: 50%;
+  color: rgb(245, 244, 247);
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(.23, 1, 0.32, 1);
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 900;
+  padding: 15px 20px;
+}
+h1{
+  width: fit-content;
+  padding: 1rem;
+  font-size: 3rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid white;
+  text-shadow: 0 12px 15px rgba(255, 255, 255, 0.678);
+}
